@@ -12,6 +12,7 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.18);
+
 }
 
 .app__navbar-logo{
@@ -120,6 +121,14 @@
         background-repeat: no-repeat;
 
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+        .first{
+            transform: translateX(300px);
+            transition: transform 3s ease-in-out;
+        }
+        .second{
+            transform: translateX(0);
+            transition: transform 3s ease-in-out;
+        }
 
         svg {
             width: 35px;
@@ -166,4 +175,5 @@
     @media screen and (min-width : 900px) {
         display: none;   
     }
+    
 }

@@ -1,4 +1,7 @@
 import email from "../assets/email.png";
+import loveProfileOne from "../assets/loveProfileOne.png";
+import loveProfileOne2 from "../assets/loveProfileOne-2.png";
+import loveProfileTwo from "../assets/loveProfileTwo.png";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
 import cpp from "../assets/cpp.png";
@@ -37,6 +40,9 @@ import spotify from "../assets/spotify.png";
 
 const images = {
   email,
+  loveProfileOne,
+  loveProfileOne2,
+  loveProfileTwo,
   mobile,
   api,
   cpp,
