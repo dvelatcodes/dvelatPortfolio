@@ -20,14 +20,19 @@
     height: 100%;
     flex-direction: row;
 
-    padding: 6rem 2rem 0;
+    padding: 2rem 2rem 0;
 
 
     @media screen and (min-width : 2000px) {
         padding-top: 8rem;
     }
     @media screen and (max-width : 1200px) {
+        // flex-direction: column;
+        padding-bottom: 6rem;
+    }
+    @media screen and (max-width : 833px) {
         flex-direction: column;
+        padding-top: 6rem;
     }
     @media screen and (max-width : 400px) {
         padding: 6rem 1rem 2rem;
@@ -68,7 +73,7 @@
 
     .tag-cmp{
         flex-direction: column;
-        margin-top: 3rem;
+        margin-top: 1rem;
 
         p{
             width: 100%;
