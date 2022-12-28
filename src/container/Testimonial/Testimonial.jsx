@@ -25,15 +25,15 @@ const Testimonial = () => {
   const test = testimonials[currentIndex];
   return (
     <>
-      {testimonials.length >= 1 && (
+      {testimonials.length && (
         <>
           <div className="app__testimonial-item">
-            <img src={urlFor(test.imageUrl)} alt="testimonial" />
+            <img src={urlFor(test?.imageUrl)} alt="testimonial" />
             <div className="app__testimonial-content">
-              <p className="text">{test.feedback}</p>
+              <p className="text">{test?.feedback}</p>
               <div>
-                <h4 className="bold-text">{test.name}</h4>
-                <h5 className="p-text">{test.company}</h5>
+                <h4 className="bold-text">{test?.name}</h4>
+                <h5 className="p-text">{test?.company}</h5>
               </div>
             </div>
           </div>
