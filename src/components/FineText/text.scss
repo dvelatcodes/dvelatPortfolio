@@ -1,0 +1,82 @@
+.custom-loader {
+    // background-image: linear-gradient(
+    //   45deg,
+    //   black 20%,
+    //   rgb(56, 54, 54) 40%,
+    //   rgb(63, 58, 58) 60%,
+    //   rgb(14, 5, 5) 80%,
+    //   black
+    // );
+    // min-width: 100vw;
+    // min-height: 100vh;
+    width: 90px;
+    height: 20px;
+    // position: fixed;
+    inset: 0 0 0 0;
+    // browser support
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // display: grid;
+    // place-items: center;
+    // z-index: 999999;
+  }
+  .custom-loader svg {
+    max-width: 90px;
+    max-height: 20rem;
+    width: 100%;
+    height: 100%;
+  }
+  .custom-loader svg path:nth-of-type(1) {
+    stroke-dasharray: 6.69rem;
+    stroke-dashoffset: 6.69rem;
+    stroke-width: 1;
+    fill: none;
+    stroke: #09aef5;
+    animation: pathAnime1 3s linear infinite;
+  }
+  .custom-loader svg path:nth-of-type(2) {
+    stroke-dasharray: 353.75rem;
+    stroke-dashoffset: 353.75rem;
+    stroke-width: 1;
+    fill: none;
+    stroke: #09aef5;
+    animation: pathAnime2 3s linear infinite;
+  }
+  @keyframes pathAnime1 {
+    0% {
+      stroke-dasharray: 6.69rem;
+      stroke-dashoffset: 6.69rem;
+      opacity: 0;
+    }
+    50% {
+      stroke-dasharray: 6.69rem;
+      stroke-dashoffset: 0rem;
+      opacity: 1;
+    }
+    100% {
+      stroke-dasharray: 6.69rem;
+      stroke-dashoffset: 6.69rem;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pathAnime2 {
+    0% {
+      stroke-dasharray: 353.75rem;
+      stroke-dashoffset: 353.75rem;
+      opacity: 0;
+    }
+    50% {
+      stroke-dasharray: 353.75rem;
+      stroke-dashoffset: 0rem;
+      opacity: 1;
+    }
+    100% {
+      stroke-dasharray: 353.75rem;
+      stroke-dashoffset: 353.75rem;
+      opacity: 0;
+    }
+  }
+  
