@@ -2,6 +2,7 @@ import email from "../assets/email.png";
 import loveProfileOne from "../assets/loveProfileOne.png";
 import loveProfileOne2 from "../assets/loveProfileOne-2.png";
 import loveProfileTwo from "../assets/loveProfileTwo.png";
+import lovePort from "../assets/love_port.jpg";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
 import cpp from "../assets/cpp.png";
@@ -37,6 +38,7 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import lovePort2 from "../assets/lovePort2.png";
 
 const images = {
   email,
@@ -75,6 +77,8 @@ const images = {
   nb,
   skype,
   spotify,
+  lovePort,
+  lovePort2,
 };
 
 export default images;
